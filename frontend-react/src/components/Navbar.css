@@ -1,0 +1,12 @@
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza os botões horizontalmente */
+  }
+  
+  .btn-outline-dark {
+    margin: 2px 20px; /* Aumenta a margem para 20px para um espaço maior */
+    padding: 3px 8px; /* Padding padrão */
+    font-size: 0.75rem;
+  }
+  
