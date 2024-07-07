@@ -42,7 +42,7 @@ npm install
 Iniciar o Servidor
 
 ```bash
-npm start
+npm run dev
 ```
 Demais orientações, estão contidas no seguinte documento
 
