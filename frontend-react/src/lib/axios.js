@@ -10,7 +10,17 @@ class ProductsApi {
 
     async getProducts() {
         try {
-            const response = await this.axios.get('/products/');
+            const response = await this.axios.get('/listarProdutos');
+            return response.data;
+        } catch (error) {
+            console.error(error);
+            return [];
+        }
+    }
+
+    async getProductById(id) {
+        try {
+            const response = await this.axios.get('/listarProdutoById/' + id);
             return response.data;
         } catch (error) {
             console.error(error);
