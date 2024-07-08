@@ -45,7 +45,7 @@ public class Main {
 
 
         try {
-            Path imagePath = Paths.get("C:\\projetos\\api\\src\\main\\resources\\imagens\\calca_jeans.png");
+            Path imagePath = Paths.get("src\\main\\resources\\imagens\\calca_jeans.png");
             byte[] imagemBytes = Files.readAllBytes(imagePath);
             //System.out.println("\nImage as byte : " + imagemBytes);
         } catch (IOException e) {
