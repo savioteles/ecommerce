@@ -8,7 +8,7 @@ export function Product({image, title, description, price, product}){
     return (
         <div className="w-80 h-full aspect-square flex flex-col items-center p-2.5 gap-2.5 ring-1 ring-black/30 rounded">
             <figure className="">
-                <img src={image} alt={description} className="h-44" />
+                <img src={`data:image/png;base64,${image}`} alt={description} className="h-44" />
             </figure>
             <h2 className="text-xl font-bold text-center">
                 {title.length > 20 ? title.slice(0, 20) + '...' : title}

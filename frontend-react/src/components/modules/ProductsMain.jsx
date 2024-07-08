@@ -47,10 +47,10 @@ export function ProductsMain() {
                         products.map((product, index) => (
                             <Product
                                 key={index}
-                                image={product.image}
-                                title={product.title}
-                                description={product.description}
-                                price={product.price}
+                                image={product.imagem}
+                                title={product.nome}
+                                description={product.descricao}
+                                price={product.preco}
                                 product={product}
                             />
                         ))
